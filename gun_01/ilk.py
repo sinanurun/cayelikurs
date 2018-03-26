@@ -1,0 +1,8 @@
+print("merhaba ben sinan")
+print("izmirden geldim")
+print("torbalı da öğretmenim")
+print("senin adın nedir ?")
+input()
+print("memnun oldum tanıştığıma")
+input("sen nereden geldin ?")
+print("senin geldiğin memlekette çok güzelmiş")
