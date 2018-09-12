@@ -1,0 +1,7 @@
+def ort_hesapla():
+  toplam = 0
+  for a in range(3):
+    notlar = int(input("not gir"))
+    toplam = toplam + notlar
+  ort = toplam / 3
+  print("notların ort",ort)
