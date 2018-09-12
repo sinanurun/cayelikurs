@@ -1,0 +1,9 @@
+def ort_hesapla(ssayisi):
+  toplam = 0
+  for a in range(ssayisi):
+    notlar = int(input("not gir"))
+    toplam = toplam + notlar
+  ort = toplam / ssayisi
+  print("notların ort",ort)
+ssayisi = int(input("ssayısı gir"))
+ort_hesapla(ssayisi)
