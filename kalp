@@ -1,0 +1,23 @@
+# Add your Python code here. E.g.
+from microbit import *
+
+kalp = Image("05050:"
+             "60606:"
+             "70007:"
+             "08080:"
+             "00900")
+
+tkalp = Image("50505:"
+             "06060:"
+             "07770:"
+             "80808:"
+             "99099")
+
+while True:
+    for a in range(2):
+        if a ==0:
+            display.show(kalp)
+            sleep(2000)
+        else:
+            display.show(tkalp)
+            sleep(2000)
